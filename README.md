@@ -30,4 +30,5 @@ CountUpTimer timer = new CountUpTimer(TOTAL_TIME, TICK, new CustomTimer.TimerDel
 ```
 ##TODO
 1. Add a method that returns a string representation of the timer.
-2. Add a pause method that pauses the timer for a given amount of milliseconds.
+2. Add a restart method that restarts the timer with the initial settings.
+3. Add a pause method that pauses the timer for a given amount of milliseconds.
