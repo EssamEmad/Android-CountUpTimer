@@ -27,6 +27,9 @@ CountUpTimer timer = new CountUpTimer(TOTAL_TIME, TICK, new CustomTimer.TimerDel
         // the start call is used for starting and resuming
         timer.start();
         long milliSecondsLeft = timer.getTimeToGo();
+        // restart method: restarts the timer.
+        timer.restart();
+        String currentTime = timer.getTimeString();
 ```
 ##TODO
 1. Add a method that returns a string representation of the timer.
