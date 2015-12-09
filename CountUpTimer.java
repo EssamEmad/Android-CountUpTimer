@@ -68,6 +68,14 @@ public class CountUpTimer {
         };
         start();
     }
+    public String getTimeString() {
+        long timeMilli = getTimeToGo();
+        int time = (int) timeMilli / 1000;
+        int minutes = time / 60;
+        int seconds = time - (minutes * 60);
+        String returnString = minutes + ":" + seconds;
+        return returnString;
+    }
 
     public long getTimeToGo(){
         long returnValue = end - this.timeToGo;
