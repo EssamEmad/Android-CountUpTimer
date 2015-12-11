@@ -32,6 +32,8 @@ CountUpTimer timer = new CountUpTimer(TOTAL_TIME, TICK, new CustomTimer.TimerDel
         String currentTime = timer.getTimeString();
 ```
 ##TODO
-1. Add a method that returns a string representation of the timer.
-2. Add a restart method that restarts the timer with the initial settings.
-3. Add a pause method that pauses the timer for a given amount of milliseconds.
+* [x] Add a method that returns a string representation of the timer.
+* [x] Add a restart method that restarts the timer with the initial settings.
+* [ ] Add a pause method that pauses the timer for a given amount of milliseconds.
+* [ ] Add a view (subclass of textview) that the timer updates each tick.
+* [ ] Make this a gradle project.
